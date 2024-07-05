@@ -1,0 +1,54 @@
+.register-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9d6e2;
+  width: 400px;
+  height: 630px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.register-form-title {
+  color: black;
+  font-size: 35px;
+  display: flex;
+}
+
+.register-app-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.register-form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+
+  .register-form-container{
+    height: 560px;
+  }
+
+  .register-form-wrapper {
+    align-items: baseline;
+  }
+
+  .register-app-wrapper {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .register-form-title {
+    margin-top: 50px;
+  }
+}

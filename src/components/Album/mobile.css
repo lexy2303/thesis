@@ -1,0 +1,60 @@
+@media (max-width: 375px) {
+  .album-box {
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .container .album .outer {
+    display: none;
+  }
+
+  .container .album .card {
+    position: unset;
+  }
+}
+
+@media (max-width: 1105px) {
+  .main-container:nth-child(3n + 2){
+    margin: 0px;
+  }
+
+  .year-1980, .year-1990, .year-2000 {
+    display: none;
+  }
+}
+
+@media (max-width: 1844px) {
+  .main-container:nth-child(3n + 2){
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container .album .card {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .container .album .outer .inner {
+    height: 65px;
+    width: 65px;
+    border: 65px solid black;
+  }
+}
+
+@media (min-width: 1370px) {
+  .container .album .card {
+    height: 170px;
+    width: 170px;
+  }
+
+  .container .album .outer .inner {
+    width: 62px;
+    height: 62px;
+    border: 50px solid black;
+  }
+}

@@ -1,0 +1,231 @@
+@media (max-width: 500px) {
+  .record-player {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .turntable {
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+
+  .record {
+    width: 275px;
+    height: 275px;
+    left: -45px;
+  }
+
+  .record-center {
+    top: 125px;
+    left: 124px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .selected-artist-info {
+    position: relative;
+    margin: 0;
+    left: 20px;
+    width: 90%;
+  }
+
+  .record-title {
+    margin: 0;
+    font-size: 55px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .waveform {
+    display: none;
+  }
+
+  .band-img {
+    width: 100px;
+    height: 100px;
+    left: 86px;
+    top: 90px;
+  }
+
+  .record-overlay {
+    width: 280px;
+    height: 280px;
+    top: -10px;
+  }
+
+  .flip-button-box {
+    left: 40px;
+    bottom: 120px;
+  }
+
+  .flip-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .slider {
+    width: 200px;
+    height: 7px;
+    right: -85px;
+    top: 160px;
+  }
+
+  .switcher-wrapper {
+    top: -10px;
+    right: -130px;
+  }
+
+  .switcher {
+    width: 50px;
+    height: 50px;
+  }
+
+  .switcher-red {
+    left: 1px;
+    bottom: 65px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .switcher-green {
+    left: 40px;
+    bottom: 65px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .switcher::before {
+    height: 20px;
+    left: 20px;
+  }
+
+  .tonearm {
+    height: 240px;
+    right: 60px;
+    top: 38px;
+    width: 9px;
+  }
+
+  .tonearm::after {
+    width: 10px;
+    bottom: -50px;
+    right: 23px;
+  }
+
+  .tonearm::before {
+    height: 50px;
+    bottom: -40px;
+    right: 13px;
+    width: 9px;
+  }
+
+  .control {
+    width: 20px;
+    height: 45px;
+    right: -6px;
+    top: -2px;
+  }
+
+  .control-axis {
+    width: 17px;
+    height: 17px;
+    right: -18px;
+  }
+
+  .control-head {
+    width: 20px;
+    height: 18px;
+    right: 30px;
+    bottom: -64px;
+  }
+
+  .animation4 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+
+.turntable {
+  width: 360px;
+  height: 360px;
+}
+
+.record {
+  width: 245px;
+  height: 245px;
+}
+
+.band-img {
+  width: 80px;
+  height: 80px;
+  left: 85px;
+  top: 88px;
+}
+
+.record-center {
+  top: 115px;
+  left: 115px;
+}
+
+.flip-button-box {
+  bottom: 60px !important;
+}
+
+.switcher {
+  width: 35px;
+  height: 35px;
+}
+
+.switcher::before {
+  height: 15px;
+  left: 15px;
+}
+
+.selected-artist-info {
+  top: 10px;
+}
+
+.record-title {
+  font-size: 45px;
+}
+
+.record-subtitle {
+  margin: 0;
+  font-size: 35px !important;
+}
+
+.switcher-red {
+  bottom: 45px;
+  width: 8px;
+  height: 8px;
+}
+
+.switcher-green {
+  bottom: 45px;
+  width: 8px;
+  height: 8px;
+  left: 30px;
+}
+
+.slider {
+  width: 170px;
+  height: 6px;
+  right: -80px;
+}
+
+.tonearm {
+  height: 220px;
+}
+
+@media (min-width: 1590px) {
+  .flip-button-box {
+    bottom: 30px !important;
+    left: 280px !important;
+  }
+}
+
+}

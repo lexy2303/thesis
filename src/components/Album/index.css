@@ -1,0 +1,145 @@
+.album-box {
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 30px 0 30px 0;
+}
+
+.container .album .outer {
+  display: flex;
+  position: relative;
+  left: -18%;
+}
+
+.container .album .card {
+  position: relative;
+  left: 20%;
+  background-color: black;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 16px 26px 0px rgba(15, 15, 19, 0.083);
+  border-radius: 2px;
+  z-index: 10;
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+}
+
+.container .album .outer .inner {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: 90px solid black;
+  background-color: rgb(221, 221, 221);
+  overflow: hidden;
+  box-shadow: 2px 16px 26px 0px rgba(36, 33, 69, 0.2);
+}
+
+.container .album .card .img1 {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.container .album .outer .inner img {
+  width: 100%;
+}
+
+.container .album:hover .inner {
+  animation: rotate 2s infinite linear; 
+  position: relative;
+  left: 27px;
+  z-index: 2;
+}
+
+.band-info {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.band-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.heart-icon {
+  position: relative;
+  top: -140px;
+  left: 120px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.info-link {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cost {
+  font-size: 19px;
+  color: #FCCCDC;
+}
+
+.band-title {
+  font-weight: bolder;
+  font-size: 27px;
+  color: #facfdd;
+  font-family: ui-monospace;
+}
+
+.band-title:hover, .album-name:hover {
+  color: #fcccdc76;
+}
+
+.album-name {
+  font-size: 20px;
+  color: #f9cbdbc9;
+}
+
+.play {
+  position: absolute;
+}
+
+.h-icon {
+  position: relative;
+  z-index: 10;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

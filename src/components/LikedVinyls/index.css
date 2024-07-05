@@ -1,0 +1,25 @@
+.liked-band-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.liked-bands-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  gap: 15px;
+}
+
+.liked-band-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.liked-band-name {
+  font-size: 25px;
+}

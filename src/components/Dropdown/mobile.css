@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+  .select-box {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .select {
+    width: 120px;
+  }
+
+  .search {
+    width: 120px;
+  }
+
+  .custom-select {
+    width: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .select-box {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}

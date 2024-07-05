@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+
+.records {
+  display: none;
+}
+
+.main-artist-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 50px;
+  width: 100%;
+}
+
+.main-album-name {
+  font-size: 40px;
+}
+
+.genre {
+  font-size: 35px;
+}
+
+.selected-band-info {
+  margin: 0;
+  line-height: normal;
+  width: 85%;
+  margin-top: 50px;
+}
+
+.tracklist-title {
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.vinyl-box-A {
+  flex-direction: column;
+}
+
+.listA-content, .listB-content {
+  flex-direction: column-reverse;
+  gap: 10px;
+  width: 100%;
+}
+
+.listA, .listB {
+  align-items: baseline;
+  margin: 0;
+}
+
+.vinyl-icon, .vinyl-icon2 {
+  width: 180px;
+  height: 180px;
+}
+
+.vinyl-box-B {
+  flex-direction: column-reverse;
+}
+
+.main-info-box {
+  flex-direction: column-reverse;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.title-box {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+}

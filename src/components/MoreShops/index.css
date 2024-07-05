@@ -1,0 +1,189 @@
+.news-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.news-link {
+  display: flex;
+  color: white;
+  background-color: rgba(44, 44, 44, 0.306);
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.insta-container {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 630px;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: rgba(17, 17, 17, 0.72);
+  margin-bottom: 50px;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: baseline;
+  gap: 10px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.username-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.more {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  margin-right: 15px;
+}
+
+.username {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.user-location {
+  color: rgba(255, 255, 255, 0.658);
+}
+
+.post {
+  width: 310px;
+  height: 330px;
+  border-radius: 4px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 15px;
+  align-items: center;
+}
+
+.message-icon {
+  width: 90px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.likes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 7px;
+}
+
+.users-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.likes {
+  color: white;
+  font-size: 13px;
+}
+
+.caption {
+  color: rgba(255, 255, 255, 0.908);
+  font-size: 12px;
+  width: 95%;
+  display: flex;
+  gap: 5px;
+}
+
+.send {
+  transform: rotate(-15deg);
+}
+
+.icons-box {
+  width: 90%;
+  margin-left: 20px;
+  gap: 10px;
+  display: flex;
+}
+
+.users {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.username-small {
+  color: white;
+  font-size: 12px;
+}
+
+.caption-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+.view {
+  display: flex;
+  width: 92%;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.786);
+  margin-left: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.903);
+  padding-bottom: 5px;
+}
+
+.comment {
+  display: flex;
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 11px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+@media (max-width: 500px) {
+  .insta-container {
+    width: 300px;
+    height: 590px;
+  }
+
+  .post {
+    width: 280px;
+  }
+}
