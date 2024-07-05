@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+body {
+  letter-spacing: 0.15em;
+  background-color: #f9d6e2;
+  font-family: 'Rozha One', serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
